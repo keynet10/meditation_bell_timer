@@ -1,0 +1,55 @@
+name: meditation_bell_timer
+description: A simple meditation timer.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.0.0
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  # --- ADDED THIS TOOL ---
+  flutter_launcher_icons: "^0.13.1"
+
+# --- ICON CONFIGURATION ---
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/rain.mp3
+    - assets/rain_bg.webp
+    - assets/waves.mp3
+    - assets/waves_bg.webp
+    - assets/birds.mp3
+    - assets/birds_bg.webp
+    - assets/forest.mp3
+    - assets/forest_bg.webp
+    - assets/bowl.mp3
+    - assets/bowl_bg.webp
+    - assets/omchant.mp3
+    - assets/omchant_bg.webp
+    - assets/steamtrain.mp3
+    - assets/steamtrain_bg.webp
+    - assets/spaceship.mp3
+    - assets/spaceship_bg.webp
+    - assets/campfire.mp3
+    - assets/campfire_bg.webp
+    - assets/cicadas.mp3
+    - assets/cicadas_bg.webp
+    - assets/brownnoise.mp3
+    - assets/brownnoise_bg.webp
+    - assets/bell.mp3
+    - assets/bell_bg.webp
